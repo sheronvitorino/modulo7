@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>COMPARAÇÃO DE DOIS NÚMEROS</h1>
+        <p> Crie um formulário HTML que possua dois campos
+            numéricos, campo A e campo B e um botão para
+            submeter o formulário.</p>
+        <p> Crie uma validação no
+            JavaScript , onde o formulário
+            será válido caso o número B seja maior que o número
+            A.</p>
+        <p>Exiba uma mensagem positiva quando o formulário for
+            válido e uma mensagem negativa quando for inválido.</p>
+        <form id="validaNumero">    
+            <input type="number" id="valor-um" required placeholder="Insira o valor 1" />
+            <h3>VALOR 2</h3>
+            <input type="number" id="valor-dois" required placeholder="Insira o valor 2" />
+            <button id="btn-enviar" type="submit">CALCULAR</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+
+h1{
+    color: #1a2396;
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+h3{
+    font-family: Verdana;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+p{
+    margin: 0px;
+    width: 100%;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 32px;
+    resize: none;
+    }
+
+
+form {
+    margin-top: 40px;
+}
+
+button {
+    background-color: #1a2396;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 18px;
+    font-style: italic;
+    cursor: pointer;
+    }
+
+form button:hover {
+    background-color: #ec1a1a;
+    }
+
+
