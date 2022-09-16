@@ -26,7 +26,7 @@ input, button {
     display: block;
     padding: 8px;
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     resize: none;
     }
 
@@ -44,10 +44,27 @@ button {
     font-weight: 18px;
     font-style: italic;
     cursor: pointer;
+    margin: 16px;
     }
 
 form button:hover {
     background-color: #ec1a1a;
     }
 
+.mensagemErros {
+    background-color:rgb(128, 0, 0) ;
+    padding: 16px;
+    color: white;
+    margin-bottom: 4px;
+    font-weight: 12px;
+    display: none;
+}
 
+.mensagemPositiva {
+    background-color:rgb(50, 134, 1) ;
+    padding: 16px;
+    color:white;
+    margin-bottom: 4px;
+    font-weight: 12px;
+    display: none;
+}
