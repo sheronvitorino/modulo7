@@ -9,9 +9,12 @@ form.addEventListener ('submit', function (e){
         const valorhum = document.getElementById ('valor-um');
         const valordois = document.getElementById ('valor-dois');        
 
+        const conteudomensagemerro = document.querySelector('.mensagemErros');
+        const conteudomensagempositiva = document.querySelector('.mensagemPositiva');
+
         if (numero2 > numero1) {
-            const conteudomensagempositiva = document.querySelector('.mensagemPositiva');
             conteudomensagempositiva.innerHTML = mensagemPositiva;
+            conteudomensagemerro.style.display ='none';
             conteudomensagempositiva.style.display = 'block';
             
             valorhum.value = '';
@@ -19,9 +22,9 @@ form.addEventListener ('submit', function (e){
             mensagemPositiva = '';
 
         }else {
-            const conteudomensagemerro = document.querySelector('.mensagemErros');
             conteudomensagemerro.innerHTML = mensagemErro;
             conteudomensagemerro.style.display = 'block';
+            conteudomensagempositiva.style.display = 'none';
             mensagemErro = '';
 
         }
